@@ -1,3 +1,4 @@
+
 package com.dnsn.pontoInteligente.Api.repositories;
 
 import static org.junit.Assert.assertEquals;
@@ -5,6 +6,13 @@ import static org.junit.Assert.assertEquals;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 import java.util.List;
+
+import com.dnsn.pontoInteligente.Api.Entities.Empresa;
+import com.dnsn.pontoInteligente.Api.Entities.Funcionario;
+import com.dnsn.pontoInteligente.Api.Entities.Lancamento;
+import com.dnsn.pontoInteligente.Api.Enums.PerfilEnum;
+import com.dnsn.pontoInteligente.Api.Enums.TipoEnum;
+import com.dnsn.pontoInteligente.Api.utils.PasswordUtils;
 
 import org.junit.After;
 import org.junit.Before;
@@ -14,16 +22,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.dnsn.pontoInteligente.Api.Entities.Empresa;
-import com.dnsn.pontoInteligente.Api.Entities.Funcionario;
-import com.dnsn.pontoInteligente.Api.Entities.Lancamento;
-import com.dnsn.pontoInteligente.Api.Enums.PerfilEnum;
-import com.dnsn.pontoInteligente.Api.Enums.TipoEnum;
-import com.dnsn.pontoInteligente.Api.utils.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

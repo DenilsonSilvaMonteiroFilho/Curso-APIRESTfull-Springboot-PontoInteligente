@@ -5,6 +5,11 @@ import static org.junit.Assert.assertNotNull;
 
 import java.security.NoSuchAlgorithmException;
 
+import com.dnsn.pontoInteligente.Api.Entities.Empresa;
+import com.dnsn.pontoInteligente.Api.Entities.Funcionario;
+import com.dnsn.pontoInteligente.Api.Enums.PerfilEnum;
+import com.dnsn.pontoInteligente.Api.utils.PasswordUtils;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,11 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.dnsn.pontoInteligente.Api.Entities.Empresa;
-import com.dnsn.pontoInteligente.Api.Entities.Funcionario;
-import com.dnsn.pontoInteligente.Api.Enums.PerfilEnum;
-import com.dnsn.pontoInteligente.Api.utils.PasswordUtils;
 
 
 

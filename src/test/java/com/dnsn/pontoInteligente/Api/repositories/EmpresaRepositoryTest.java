@@ -2,6 +2,8 @@ package com.dnsn.pontoInteligente.Api.repositories;
 
 import static org.junit.Assert.assertEquals;
 
+import com.dnsn.pontoInteligente.Api.Entities.Empresa;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,8 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.dnsn.pontoInteligente.Api.Entities.Empresa;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

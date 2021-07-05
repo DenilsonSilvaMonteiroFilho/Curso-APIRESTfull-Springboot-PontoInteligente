@@ -1,4 +1,4 @@
-package com.dnsn.pontoInteligenteApi;
+package com.dnsn.pontoInteligente.Api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
